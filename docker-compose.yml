@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ntp:
+    build: .
+    restart: always
+    ports:
+      - 123:123/udp
